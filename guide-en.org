@@ -9,19 +9,19 @@ In a piece of A4, 210mm * 297mm, a resume ends the previous stage of life and st
 
 "A nine-storey tower arises from a pile of earth."(Laozi, chapter 64) Likewise, a pretty-print resume is based on details of font, punctuation, layout and grammar.
 
-This guide will systematically explain the essentials of resume writing and typesetting with particular emphasis on typography, helping you make a resume pretty both in form and spirit. For each topic, we will first explain WHAT it is, then WHY is it so, and finally How to do it.
+This guide will systematically explain the essentials of resume writing and typesetting with particular emphasis on typography, helping you make a resume pretty both in form and spirit. For each topic, we will first explain WHAT it is, then WHY it is so, and finally HOW to do it.
 
-The guide is trying to be as concise and clear as possible, for different items there are four levels of priority:
+The guide is trying to be as concise and clear as possible, for different declarations there are four levels of priority:
 - Must, mandatory in typesetting, serious mistake if violated
 - Recommend, conform to general typesetting standards, highly recommended
-- Caution, require advanced knowledge or features in typesetting, or diverse in different languages and cultures, or varies with regulation in companies, dangerous to use if not informed 
+- Caution, require advanced knowledge or features in typesetting, or diverse in different languages and cultures, or vary with regulations in companies, dangerous to use if not informed 
 - Forbidden, conflict with general typesetting standards, forbidden to apply
 
 * Font
 
-As text transmits information, the visual feature of the text itself - font - will affect the quality of transmission.
+As text transmits information, the visual feature of the text itself——font——will affect the quality of transmission.
 
-In principle, the typesetting of a resume should be concise and clear. As for font, first you should never use fonts that are too fancy, second the types of fonts should not be too much - best limited in three. Here we will discuss some basics of fonts and main points in typesetting.
+In principle, the typesetting of a resume should be concise and clear. As for font, first you should never use fonts that are too fancy, second the types of fonts should not be too much——best limited in three. Here we will discuss some basics of fonts and main points in typesetting.
 
 ** Font classification
 
@@ -45,13 +45,13 @@ A serif is a tiny line attached to the end of a stroke in a letter. A font with 
 
 *** Proportional vs. monospaced
 
-According to whether or not the widths of characters are the same, the font can be divided into monospaced font and proportional font. As the name suggests, all letters in monospaced font occupy the same amount of horizontal space, while in proportional font they don't.
+According to whether or not the widths of characters are the same, fonts can be divided into monospaced font and proportional font. As the name suggests, all letters in a monospaced font occupy the same amount of horizontal space, while in a proportional font they don't.
 
 # + CAPTION: Proportional fonts and monospaced fonts
 # + NAME: image: proportional-and-monospaced-font
-[[Static / notes / guide / images / 1280px-Propvsmono.svg.png]]
+[[static / notes / guide / images / 1280px-Propvsmono.svg.png]]
 
-In traditional printing, proportional fonts can improve the legibility of words. Due to technical limitations, the early computers and typewriters can not adjust the width of characters. So all characters are made into the same width, thus monospaced fonts come into being. With the improvement of computer technology, the GUI(graphical user interface) has become the mainstream and develops continuously; technical limitations no longer exist, so the proportional typeface has become quite popular, since it makes more natural readability for human.
+In traditional printing, proportional fonts can improve the legibility of words. Due to technical limitations, the early computers and typewriters can not adjust the width of characters. So all characters are made into the same width, thus monospaced fonts come into being. With the improvement of computer technology, the GUI(graphical user interface) has become the mainstream and been developing continuously; technical limitations no longer exist, so proportional fonts have become quite popular, since they are more naturally legible for human.
 
 
 ** Western fonts
