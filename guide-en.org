@@ -9,58 +9,46 @@ In a piece of A4, 210mm * 297mm, a resume ends the previous stage of life and st
 
 "A nine-storey tower arises from a pile of earth."(Laozi, chapter 64) Likewise, a pretty-print resume is based on details of font, punctuation, layout and grammar.
 
-This guide will systematically explain the essentials of resume writing and typesetting with paticular emphasis on typography, helping you make a resume pretty both in form and spirit. For each topic, we will first explain WHAT it is, then WHY is it so, and finally How to do it.
+This guide will systematically explain the essentials of resume writing and typesetting with particular emphasis on typography, helping you make a resume pretty both in form and spirit. For each topic, we will first explain WHAT it is, then WHY is it so, and finally How to do it.
 
 The guide is trying to be as concise and clear as possible, for different items there are four levels of priority:
 - Must, mandatory in typesetting, serious mistake if violated
 - Recommend, conform to general typesetting standards, highly recommended
-- Caution, require advanced knowledge or features in typesetting, or diverses in different languages and cultures, or varies with regulation in companies, dangerous to use if not informed 
+- Caution, require advanced knowledge or features in typesetting, or diverse in different languages and cultures, or varies with regulation in companies, dangerous to use if not informed 
 - Forbidden, conflict with general typesetting standards, forbidden to apply
 
 * Font
 
 As text transmits information, the visual feature of the text itself - font - will affect the quality of transmission.
 
-In principle, the typesetting of a resume should be concise and clear. In terms of font, first you should never use fonts that are too fancy, second the types of fonts should not be too much - best limited in three. Here we will discuss some basics of fonts and main points in typesetting.
+In principle, the typesetting of a resume should be concise and clear. As for font, first you should never use fonts that are too fancy, second the types of fonts should not be too much - best limited in three. Here we will discuss some basics of fonts and main points in typesetting.
 
 ** Font classification
 
 *** Serif vs. sans-serif 
 
-Fonts for Latin alphabet are divided into two families: serif and sans-serif[1].
+In terms of serifs, fonts for Latin alphabet are divided into two families: serif and sans-serif[1].
 
 A serif is a tiny line attached to the end of a stroke in a letter. A font with serifs is called serif font, or serifed font. In contrast, a font without serifs is called sans-serif font, from the French /sans/, meaning "without".
 
 # + CAPTION: Sans serif
 # + NAME: image: serif-and-sans-01
-[[Static / notes / guide / images / 1280px-Serif_and_sans-serif_01.svg.png]]
+[[static / notes / guide / images / 1280px-Serif_and_sans-serif_01.svg.png]]
 
 # + CAPTION: Serif fonts
 # + NAME: image: serif-and-sans-02
-[[Static / notes / guide / images / 1280px-Serif_and_sans-serif_02.svg.png]]
+[[static / notes / guide / images / 1280px-Serif_and_sans-serif_02.svg.png]]
 
 # + CAPTION: serifs for serif fonts (red)
 # + NAME: image: serif-and-sans-03
-[[Static / notes / guide / images / 1280px-Serif_and_sans-serif_03.svg.png]]
+[[static / notes / guide / images / 1280px-Serif_and_sans-serif_03.svg.png]]
 
-As for the East Asian characters, such as Chinese characters, Japanese kana and Korean proverbs and other square words, there are also "serif" and "sans serif" two concepts, just refer to different names.
+*** Proportional vs. monospaced
 
-Chinese serif in accordance with the meaning of words translated into "serif" or "word foot", which means decorative foil, so the lining body is also known as "a foot body." In Japanese, serif is called う ろ こ, literally means "fish scales."
-
-Hong Kong and Taiwan of the traditional Chinese computer system known as the Ming body, the Japanese said Ming body (み ん ち ょ う た い, Minchōtai) in the printing industry in the Chinese mainland and Hong Kong and Taiwan, , Commonly used in text layout. These names originated in the Chinese history of the Song Dynasty and the Ming Dynasty, when the Chinese version of the printing has been widely disseminated, and used in the manufacture of movable type of wood grain for the horizontal direction, resulting in lettering when cross-painted fine, vertical painting thick; In order to prevent the edge of the damage, horizontal painting at both ends have been bold, according to pen habit of forming a triangular decoration. This approach has been in use today, and now the majority of serif type fonts are vertical and horizontal vertical coarse.
-
-In addition, the sans serif in the Chinese are usually referred to as black, in Japanese called ゴ シ ッ ク body (Goshikku-tai, the "Gothic"), these font strokes basically the same thickness, no serif, more eye-catching, commonly used Title, lead, signs and so on.
-
-# + CAPTION: Chinese character in the serif body and non-serifs
-# + NAME: image: serif-and-sans-03
-[[Static / notes / guide / images / 1280px-Chinese_typefaces _ (_ In_accordance_with_MOE, _ROC) .svg.png]]
-
-*** Proportional fonts and monospaced fonts
-
-According to the width of the characters are the same, the font can be divided into monospaced Font (Monospaced Font) and two proportional fonts (Proportional Font). As the name suggests, monospaced font width refers to the same computer font, the proportion of the font is not the same width of the computer font characters.
+According to whether or not the widths of characters are the same, the font can be divided into monospaced font and proportional font. As the name suggests, all letters in monospaced font occupy the same amount of horizontal space, while in proportional font they have various widths.
 
 # + CAPTION: Proportional fonts and monospaced fonts
-# + NAME: image: propotional-and-monospaced-font
+# + NAME: image: proportional-and-monospaced-font
 [[Static / notes / guide / images / 1280px-Propvsmono.svg.png]]
 
 In traditional Western printing, the proportion of fonts can improve the readability of the word. But the early computers, typewriters due to technical limitations, can not adjust the width of the characters, so each character are made into the same width, thus forming a monospaced font. With the improvement of computer technology, the graphical user interface has become the mainstream and continuous development and progress, dealing with the technical limitations of the proportion of fonts no longer exists, so the layout is now more natural proportion of fonts is quite popular.
