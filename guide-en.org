@@ -33,15 +33,15 @@ A serif is a tiny line attached to the end of a stroke in a letter. A font with 
 
 # + CAPTION: Sans serif
 # + NAME: image: serif-and-sans-01
-[[static / notes / guide / images / 1280px-Serif_and_sans-serif_01.svg.png]]
+[[static/notes/guide/images/1280px-Serif_and_sans-serif_01.svg.png]]
 
 # + CAPTION: Serif fonts
 # + NAME: image: serif-and-sans-02
-[[static / notes / guide / images / 1280px-Serif_and_sans-serif_02.svg.png]]
+[[static/notes/guide/images/1280px-Serif_and_sans-serif_02.svg.png]]
 
 # + CAPTION: serifs for serif fonts (red)
 # + NAME: image: serif-and-sans-03
-[[static / notes / guide / images / 1280px-Serif_and_sans-serif_03.svg.png]]
+[[static/notes/guide/images/1280px-Serif_and_sans-serif_03.svg.png]]
 
 *** Proportional vs. monospaced
 
@@ -49,14 +49,14 @@ According to whether or not the widths of characters are the same, fonts can be 
 
 # + CAPTION: Proportional fonts and monospaced fonts
 # + NAME: image: proportional-and-monospaced-font
-[[static / notes / guide / images / 1280px-Propvsmono.svg.png]]
+[[static/notes/guide/images/1280px-Propvsmono.svg.png]]
 
 In traditional printing, proportional fonts can improve the legibility of words. Due to technical limitations, the early computers and typewriters can not adjust the width of characters. So all characters are made into the same width, thus monospaced fonts come into being. With the improvement of computer technology, the GUI(graphical user interface) has become the mainstream and been developing continuously; technical limitations no longer exist, so proportional fonts have become quite popular, since they are more naturally legible for human.
 
 
 ** Western fonts
 
-Compared to the Chinese font, the choice of Western fonts to be much larger. First, Western Digital Publishing has a longer history, the second is a large font compared to the Chinese character set, Western character set to be much smaller, making the design and development of a Western font of the workload is much smaller than the Chinese font .
+Compared to the Chinese font, the choice of Western fonts to be much larger. First, Western Digital Publishing has a longer history, the second is a large font compared to the Chinese character set, Western character set to be much smaller, making the design and development of a Western font of the workload is much smaller than the Chinese font.
 
 As far as font design is concerned, Chinese characters are separated into individual characters, and more are single-word designs. In addition to considering the design and implementation of single characters, the proportion of characters is also considered.
 
@@ -72,11 +72,11 @@ Ascender: ascending as the lowercase characters b, d, f, h, k, l are called asce
 
 # + CAPTION: Typography
 # + NAME: image: typography
-[[Static / notes / guide / images / 2000px-Typography_line_terms_alternate.svg.png]]
+[[static/notes/guide/images/2000px-Typography_line_terms_alternate.svg.png]]
 
 *** Character spacing
 
-Character spacing (Letter-spacing, or Tracking), referred to as kerning, refers to the gap between the characters, divided into the font designer's character spacing adjustment and font user spacing adjustment of the character, the property affects the text line or text block & Lt; / RTI & gt;
+Character spacing (Letter-spacing, or Tracking), referred to as kerning, refers to the gap between the characters, divided into the font designer's character spacing adjustment and font user spacing adjustment of the character, the property affects the text line or text block & Lt;/RTI & gt;
 
 For font designers, character spacing adjustment (Spacing) is an important process in the font design implementation process. In the proportion of Western characters in the font, single character left and right sides of the blank is not consistent, the purpose is to ensure that the characters, whether with any other character or symbol adjacent to can easily read.
 
@@ -92,7 +92,7 @@ Implemented to the design and implementation of fonts, because each character ha
 
 # + CAPTION: Kerning (Kerning)
 # + NAME: image: typography
-[[Static / notes / guide / images / 1280px-Kerning_EN.svg.png]]
+[[static/notes/guide/images/1280px-Kerning_EN.svg.png]]
 
 *** co-word
 
@@ -104,7 +104,7 @@ In general daily business documents, not the word will not be treated as a spell
 
 # + CAPTION: Ligature
 # + NAME: image: ligature
-[[Static / notes / guide / images / 1106px-Ligatures.svg.png]]
+[[static/notes/guide/images/1106px-Ligatures.svg.png]]
 
 *** Composite fonts
 
@@ -120,7 +120,7 @@ Common typesetting software has a composite font feature support:
 - Microsoft Word allows you to set Chinese and English fonts separately in the advanced options for fonts
 - Adobe Indesign can create composite fonts directly, applying different fonts for different character classes
 - TeX can be through the Chinese ctex suite, with the use of ~ \ setmainfont ~, ~ \ setCJKmainfont ~ to simulate the effect of composite fonts
-- HTML / CSS can be used by ~ font-family ~, with the CSS in the font fallback mechanism (fallback) to simulate the effect of composite fonts
+- HTML/CSS can be used by ~ font-family ~, with the CSS in the font fallback mechanism (fallback) to simulate the effect of composite fonts
 
 *** Western italic
 
@@ -156,7 +156,7 @@ Compared to the very few Chinese fonts, the number of English fonts can be used 
 
 Punctuation is the most humble but most error-prone place in CV writing. Whether the correct and standardized use of punctuation marks reflect the job applicants attitude.
 
-Correct and punctual use of punctuation, it seems easy to implement it is not imagined so simple. The main reason for this is that the use of punctuation in different locales is either unspecified or normative, but is not clearly defined in many places or has multiple sets of style guidelines ([[[https://en.wikipedia.org/wiki / Style_guide] [Style Guide]]) But they are not compatible with each other and even conflict; Second, the actual layout often encounter multiple languages ​​mixed situation, then the problem will become more complex. This guide attempts to summarize some common rules in the use of punctuation in both Chinese and English for your reference.
+Correct and punctual use of punctuation, it seems easy to implement it is not imagined so simple. The main reason for this is that the use of punctuation in different locales is either unspecified or normative, but is not clearly defined in many places or has multiple sets of style guidelines ([[[https://en.wikipedia.org/wiki/Style_guide] [Style Guide]]) But they are not compatible with each other and even conflict; Second, the actual layout often encounter multiple languages ​​mixed situation, then the problem will become more complex. This guide attempts to summarize some common rules in the use of punctuation in both Chinese and English for your reference.
 
 ** Chinese punctuation
 
@@ -188,7 +188,7 @@ Chinese and English punctuation in the form of very different, therefore, the co
 # + NAME: table: difference-between-chinese-and-english-marks
 English | Chinese |
 | ---------------------------- + ------ + ------ |
-| Full Stop / Period |. |. |
+| Full Stop/Period |. |. |
 | Question Mark | |
 Exclamation Mark |! | |
 | Comma |, |, |
@@ -213,13 +213,13 @@ Hyphen, Hyphen, En-dash, and Em-dash are three punctuation marks that can easily
 # + BEGIN_QUOTE
 For a hyphen, type a hyphen (-);
 
-For an en-dash, type two hyphens (- \ / -);
+For an en-dash, type two hyphens (- \/-);
 
-For an em-dash, type three hyphens (- \ / - \ / -);
+For an em-dash, type three hyphens (- \/- \/-);
 
 For a minus sign, type a hyphen in mathematics mode (\ $ - \ $).
 
---- Donald Knuth, / The TeXBook /
+--- Donald Knuth,/The TeXBook /
 # + END_QUOTE
 
 Hyphen (-)
@@ -313,7 +313,7 @@ Leading (Line-spacing) refers to the two lines of text between the baseline (Bas
 
 # + CAPTION: Leading
 # + NAME: image: leading
-[[Static / notes / guide / images / 1200px-Line_spacing_comparison.svg.png]]
+[[static/notes/guide/images/1200px-Line_spacing_comparison.svg.png]]
 
 Ideally spaced at least 120% of the font size in the read text [16].
 
@@ -376,7 +376,7 @@ A spelling mistake in a resume is a job search. Too many primary spelling mistak
 
 Proper nouns
 
-In addition to the common English word spelling errors, proper nouns because of the more stringent capitalization requirements, is a high incidence of spelling errors. The same combination of characters, different capitalization, in different areas may have completely different meaning, job seekers must be cautious. For example, the lower case [[http://www.apple.com/ios/][iOS]] represents the mobile operating system on Apple iPhone devices, but all uppercase [[https://en.wikipedia.org/wiki / Cisco_IOS] [IOS]] is a dedicated system on a Cisco router.
+In addition to the common English word spelling errors, proper nouns because of the more stringent capitalization requirements, is a high incidence of spelling errors. The same combination of characters, different capitalization, in different areas may have completely different meaning, job seekers must be cautious. For example, the lower case [[http://www.apple.com/ios/][iOS]] represents the mobile operating system on Apple iPhone devices, but all uppercase [[https://en.wikipedia.org/wiki/Cisco_IOS] [IOS]] is a dedicated system on a Cisco router.
 
 Limited to the author's background, this guide summarizes some common spelling errors in the IT domain [17].
 
@@ -482,14 +482,14 @@ In addition to the company's unique recruitment system, candidates should be the
 - Set up the correct mailbox nickname, do not use the informal too fancy nickname, will give employers a very professional impression
   - Many QQ mailbox nickname is not formal enough, need special attention
 - Message headers are recommended in a uniform format, with a clear and concise message that conveys the most important information
-  - Proposed format: Candidate - Company Position - Name - [School / Education] - [Work Experience]
+  - Proposed format: Candidate - Company Position - Name - [School/Education] - [Work Experience]
 - E-mail text to be concise, do not recommend writing too long with a lot of personal subjective evaluation or emotional letter cover letter
   - the beginning of the text the best title to write, and add a greeting
   - Body content
-    - Personal basic information, such as work status (working / leaving), what positions, academic experience, etc.
+    - Personal basic information, such as work status (working/leaving), what positions, academic experience, etc.
     - apply to position
     Job search channels, whether it was recommended
-  - inscribed, including name, contact information (telephone / E-mail)
+  - inscribed, including name, contact information (telephone/E-mail)
 - Attachment Attach a complete resume file and name the file with reference to the message header format
 
 [1] Serif vs Sans: The Final Battle, http://designreviver.com/inspiration/serif-vs-sans-the-final-battle/.
@@ -506,7 +506,7 @@ In addition to the company's unique recruitment system, candidates should be the
 
 [7] Wikipedia, [[https://en.wikipedia.org/wiki/Ligature]].
 
-[8] "[[https://book.douban.com/subject/25836269/] [Western]]," / Kobayashi chapter /, Chapter II, P37.
+[8] "[[https://book.douban.com/subject/25836269/] [Western]],"/Kobayashi chapter /, Chapter II, P37.
 
 [9] Wikipedia, [[https://en.wikipedia.org/wiki/Italic_type][https://en.wikipedia.org/wiki/Italic_type]].
 
@@ -514,16 +514,16 @@ In addition to the company's unique recruitment system, candidates should be the
 
 [10] "[[https://book.douban.com/subject/4224467/][Adobe Indesign CS4, Basic Training Materials]]".
 
-[11] "[[https://book.douban.com/subject/26834548/] [Western typesetting]]", / Takahata Changsheng /, Chapter III, P98.
+[11] "[[https://book.douban.com/subject/26834548/] [Western typesetting]]",/Takahata Changsheng /, Chapter III, P98.
 
 [12] professional typesetting software with automatic word processing function, after opening in a certain program can automatically identify the place where the word can be, but the best artificial confirmation check again.
 
 [13] Wikipedia, [[https://en.wikipedia.org/wiki/Dash][https://en.wikipedia.org/wiki/Dash]], contains detailed symbol usage, and its use in different operating systems On the input method.
 
-[14] "[[https://book.douban.com/subject/26386339/] [Graphic Design Complete Manual]]", / Marcus Wegge /, Chapter VI, p296.
+[14] "[[https://book.douban.com/subject/26386339/] [Graphic Design Complete Manual]]",/Marcus Wegge /, Chapter VI, p296.
 
 [15] Wikipedia, [[https://en.wikipedia.org/wiki/Point_(typography)][https://en.wikipedia.org/wiki/Point_(typography)]].
 
-[16] "[[https://book.douban.com/subject/26386339/] [Graphic Design Complete Manual]]", / Marcus Wegge /, Chapter VI, p301.
+[16] "[[https://book.douban.com/subject/26386339/] [Graphic Design Complete Manual]]",/Marcus Wegge /, Chapter VI, p301.
 
 [17] [[https://github.com/ppresume/typos][https://github.com/ppresume/typos]], the latest common proper noun errata.
