@@ -19,9 +19,9 @@ The guide is trying to be as concise and clear as possible, for different declar
 
 * Font
 
-As text transmits information, the visual feature of the text itself——font——will affect the quality of transmission.
+As text transmits information, the visual feature of the text itself—font—will affect the quality of transmission.
 
-In principle, the typesetting of a resume should be concise and clear. As for font, first you should never use fonts that are too fancy, second the types of fonts should not be too much——best limited in three. Here we will discuss some basics of fonts and main points in typesetting.
+In principle, the typesetting of a resume should be concise and clear. As for font, first you should never use fonts that are too fancy, second the types of fonts should not be too much—best limited in three. Here we will discuss some basics of fonts and main points in typesetting.
 
 ** Font classification
 
