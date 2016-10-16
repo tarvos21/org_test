@@ -7,25 +7,25 @@ The resume is your face.
 
 In a piece of A4, 210mm * 297mm, a resume ends the previous stage of life and starts the next one.
 
-"A nine-storey tower arises from a pile of earth."(Laozi, chapter 64) Likewise, a pretty-print resume is based on details of font, punctuation, layout and grammar.
+"A nine-storey tower arises from a pile of earth."(/Laozi/, chapter 64) Likewise, a pretty-print resume is based on details of font, punctuation, layout and grammar.
 
 This guide will systematically explain the essentials of resume writing and typesetting with particular emphasis on typography, helping you make a resume pretty both in form and spirit. For each topic, we will first explain WHAT it is, then WHY it is so, and finally HOW to do it.
 
-The guide is trying to be as concise and clear as possible, for different declarations there are four levels of priority:
-- Must, mandatory in typesetting, serious mistake if violated
-- Recommend, conform to general typesetting standards, highly recommended
-- Caution, require advanced knowledge or features in typesetting, or diverse in different languages and cultures, or vary with regulations in companies, dangerous to use if not informed 
-- Forbidden, conflict with general typesetting standards, forbidden to apply
+The guide is trying to be as concise and clear as possible, for different declarations there are four levels of priorities:
+- MUST, mandatory in typesetting, serious mistake if violated
+- SHOULD, conform to general typesetting standards, highly recommended
+- SHOULD NOT, require advanced knowledge or features in typesetting, or diverse in different languages and cultures, or vary with regulations in companies, dangerous to use if not informed 
+- MUST NOT, conflict with general typesetting standards, forbidden to apply
 
 * Font
 
-As text transmits information, the visual feature of the text itself—font—will affect the quality of transmission.
+As text transmits information, the visual feature of the text itself---font---will affect the quality of transmission.
 
-In principle, the typesetting of a resume should be concise and clear. As for font, first you should never use fonts that are too fancy, second the types of fonts should not be too much—best limited in three. Here we will discuss some basics of fonts and main points in typesetting.
+In principle, the typesetting of a resume should be concise and clear. As for font, first you should never use fonts that are too fancy, second the types of fonts should not be too many---best limited in three. Here we will discuss some basics of fonts and main points in typesetting.
 
 ** Font classification
 
-*** Serif vs. sans-serif 
+*** Serif vs. sans-serif
 
 In terms of serifs, fonts for Latin alphabet are divided into two families: serif and sans-serif[1].
 
@@ -45,10 +45,63 @@ A serif is a tiny line attached to the end of a stroke in a letter. A font with 
 
 *** Proportional vs. monospaced
 
-According to whether or not the widths of characters are the same, fonts can be divided into monospaced font and proportional font. As the name suggests, all letters in a monospaced font occupy the same amount of horizontal space, while in a proportional font they don't.
+According to whether or not the widths of characters are the same, fonts can be divided into monospaced and proportional. As the name suggests, all letters in a monospaced font occupy the same amount of horizontal space, while in a proportional font they don't.
 
 # + CAPTION: Proportional fonts and monospaced fonts
 # + NAME: image: proportional-and-monospaced-font
 [[static/notes/guide/images/1280px-Propvsmono.svg.png]]
 
-In traditional printing, proportional fonts can improve the legibility of words. Due to technical limitations, the early computers and typewriters can not adjust the width of characters. So all characters are made into the same width, thus monospaced fonts come into being. With the improvement of computer technology, the GUI(graphical user interface) has become the mainstream and been developing continuously; technical limitations no longer exist, so proportional fonts have become quite popular, since they are more naturally legible for human.
+In traditional printing, proportional fonts can improve the legibility of words. Due to technical limitations, the early computers and typewriters can not adjust the widths of characters. So all characters are made into the same width, thus monospaced fonts come into being. With the improvement of computer technology, the GUI(graphical user interface) has become the mainstream and been developing continuously; technical limitations no longer exist, so proportional fonts have become quite popular, since they are more naturally legible for human.
+
+
+* Font design and usage
+
+Digital Publishing has been developing for many years, and the writing system of English or other similiar languages actually has a very small character set, so there are many many kinds of fonts designed by different people with various demands.
+
+For a monospaced font, the main focus is on the design of each single letter, other than that, in a proportional font, the space between letters should also be seriously considered.
+
+*** Letter composition
+
+Letters in every font have a consistent structure, font users are supposed to know these basic concepts:
+
+- baseline: the invisible line on which "H" or "n" stands
+- cap height: the distance from baseline to the top of a linear uppercase letter like "H" or "E"
+- x-height: the distance from the bottom to the top of lowercase "x" 
+- ascender: the ascending parts of lowercase letters like "b", "d", "f", "h", "k", "l" over the top of "x" , its height is called the ascender height, the top line which ascenders align is called the ascender line
+- descender: the descending parts of lowercase letters like "g", "j", "p", "q", "y" below the baseline, its height is called the descender height, the bottom line which descenders align is called the descender line
+
+# + CAPTION: Typography
+# + NAME: image: typography
+[[static/notes/guide/images/2000px-Typography_line_terms_alternate.svg.png]]
+
+*** Letter-spacing
+
+Letter-spacing, or tracking, refers to the space between letters, and is divided into font designer's and font user's letter-spacing adjustment; it affects the density in a line or block of text.
+
+For font designers, adjusting the letter-spacing is an important procedure in designing. In a proportional font, the spacing on the left side of a single letter does not necessarily equal that on the right side. The purpose is to ensure readibility when the letter is adjacent to whatever other letters on either side.
+
+For font users, the letter-spacing adjustment means manually rearranging the space between letters by softwares after the original typesetting, in order to obtain special alignment[4], or a better layout effect[5].
+
+*** Kerning
+
+Kerning refers to the process of increasing or decreasing the space between specific letter pairs in a proportional font. These pairs are called kerning pairs. Kerning is more concerned about the visual spacing rather than the actual spacing.
+
+Designers of many fonts will pay attention to kerning pairs while designing, and store kerning adjustment values in the font file. In this way, typesetting softwares can automatically adjust spacing in kerning pairs according to the values, and thus get a better layout effect.
+
+Every letter has a unique shape, so during the design and implementation of a font, letters in all kerning pairs must coorperate to produce the best visual effect. In fact, this is where the key procedure and difficulties lie.
+
+# + CAPTION: Kerning (Kerning)
+# + NAME: image: typography
+[[static/notes/guide/images/1280px-Kerning_EN.svg.png]]
+
+*** Ligature
+
+A ligature is a glyph that joins two or more letters together.
+
+Printing ligatures originate from letters combined in handwritting. After the birth of movable-type printing, a lot of ligatures were directly made into tpe. However, in the 1950s, sans-serif fonts began to be widely used, and in 1970s phototypesetting was invented, so ligatures were gradually seldom used. The earliest software that could use ligatures for digital typesetting is TeX created by [[https://en.wikipedia.org/wiki/Donald_Knuth]Donald Knuth]]. This trend also affected the typesetting technology on computer desktop after 1985. In early times, softwares could not replace letters with ligatures(but TeX can), and most of the newly made fonts for computers did not include ligatures. Furthermore, early personal computers mostly displayed in English, and ligatures are not necessary for English, so there was no real need. With the development of digital typesetting technology such as [[https://en.wikipedia.org/wiki/OpenType][OpenType]]), ligatures has gradually returned to practice[7].
+
+In general daily business documents, absence of ligatures will not be treated as spelling error, but for professional typesetting in advertising, book publishing and other fields, ligatures are essentially required[8].
+
+# + CAPTION: Ligature
+# + NAME: image: ligature
+[[static/notes/guide/images/1106px-Ligatures.svg.png]]

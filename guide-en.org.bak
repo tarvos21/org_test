@@ -7,25 +7,25 @@ The resume is your face.
 
 In a piece of A4, 210mm * 297mm, a resume ends the previous stage of life and starts the next one.
 
-"A nine-storey tower arises from a pile of earth."(Laozi, chapter 64) Likewise, a pretty-print resume is based on details of font, punctuation, layout and grammar.
+"A nine-storey tower arises from a pile of earth."(/Laozi/, chapter 64) Likewise, a pretty-print resume is based on details of font, punctuation, layout and grammar.
 
 This guide will systematically explain the essentials of resume writing and typesetting with particular emphasis on typography, helping you make a resume pretty both in form and spirit. For each topic, we will first explain WHAT it is, then WHY it is so, and finally HOW to do it.
 
-The guide is trying to be as concise and clear as possible, for different declarations there are four levels of priority:
-- Must, mandatory in typesetting, serious mistake if violated
-- Recommend, conform to general typesetting standards, highly recommended
-- Caution, require advanced knowledge or features in typesetting, or diverse in different languages and cultures, or vary with regulations in companies, dangerous to use if not informed 
-- Forbidden, conflict with general typesetting standards, forbidden to apply
+The guide is trying to be as concise and clear as possible, for different declarations there are four levels of priorities:
+- MUST, mandatory in typesetting, serious mistake if violated
+- SHOULD, conform to general typesetting standards, highly recommended
+- SHOULD NOT, require advanced knowledge or features in typesetting, or diverse in different languages and cultures, or vary with regulations in companies, dangerous to use if not informed 
+- MUST NOT, conflict with general typesetting standards, forbidden to apply
 
 * Font
 
-As text transmits information, the visual feature of the text itself—font—will affect the quality of transmission.
+As text transmits information, the visual feature of the text itself---font---will affect the quality of transmission.
 
-In principle, the typesetting of a resume should be concise and clear. As for font, first you should never use fonts that are too fancy, second the types of fonts should not be too much—best limited in three. Here we will discuss some basics of fonts and main points in typesetting.
+In principle, the typesetting of a resume should be concise and clear. As for font, first you should never use fonts that are too fancy, second the types of fonts should not be too many---best limited in three. Here we will discuss some basics of fonts and main points in typesetting.
 
 ** Font classification
 
-*** Serif vs. sans-serif 
+*** Serif vs. sans-serif
 
 In terms of serifs, fonts for Latin alphabet are divided into two families: serif and sans-serif[1].
 
@@ -45,62 +45,62 @@ A serif is a tiny line attached to the end of a stroke in a letter. A font with 
 
 *** Proportional vs. monospaced
 
-According to whether or not the widths of characters are the same, fonts can be divided into monospaced font and proportional font. As the name suggests, all letters in a monospaced font occupy the same amount of horizontal space, while in a proportional font they don't.
+According to whether or not the widths of characters are the same, fonts can be divided into monospaced and proportional. As the name suggests, all letters in a monospaced font occupy the same amount of horizontal space, while in a proportional font they don't.
 
 # + CAPTION: Proportional fonts and monospaced fonts
 # + NAME: image: proportional-and-monospaced-font
 [[static/notes/guide/images/1280px-Propvsmono.svg.png]]
 
-In traditional printing, proportional fonts can improve the legibility of words. Due to technical limitations, the early computers and typewriters can not adjust the width of characters. So all characters are made into the same width, thus monospaced fonts come into being. With the improvement of computer technology, the GUI(graphical user interface) has become the mainstream and been developing continuously; technical limitations no longer exist, so proportional fonts have become quite popular, since they are more naturally legible for human.
+In traditional printing, proportional fonts can improve the legibility of words. Due to technical limitations, the early computers and typewriters can not adjust the widths of characters. So all characters are made into the same width, thus monospaced fonts come into being. With the improvement of computer technology, the GUI(graphical user interface) has become the mainstream and been developing continuously; technical limitations no longer exist, so proportional fonts have become quite popular, since they are more naturally legible for human.
 
 
-** Western fonts
+* Font design and usage
 
-Compared to the Chinese font, the choice of Western fonts to be much larger. First, Western Digital Publishing has a longer history, the second is a large font compared to the Chinese character set, Western character set to be much smaller, making the design and development of a Western font of the workload is much smaller than the Chinese font.
+Digital Publishing has been developing for many years, and the writing system of English or other similiar languages actually has a very small character set, so there are many many kinds of fonts designed by different people with various demands.
 
-As far as font design is concerned, Chinese characters are separated into individual characters, and more are single-word designs. In addition to considering the design and implementation of single characters, the proportion of characters is also considered.
+For a monospaced font, the main focus is on the design of each single letter, other than that, in a proportional font, the space between letters should also be seriously considered.
 
-*** character composition
+*** Letter composition
 
-Chinese characters and the Chinese word frame structure compared to the Western characters have their own unique structure of the characters. There are some important basic concepts that need to be understood by the font user:
+Letters in every font have a consistent structure, font users are supposed to know these basic concepts:
 
-- baseline: uppercase characters H or lowercase characters n the bottom of the virtual step on the line
-- cap height: refers to the height of a linear uppercase character such as H or E from the baseline to the top of the character
-- x height (x-height): refers to the lower part of the upper and lower parts of the height of the lowercase x
-Ascender: ascending as the lowercase characters b, d, f, h, k, l are called ascenders. The height is called the ascender height, The top line of alignment is called the liter line
-- descender: descendants such as lowercase g, j, p, q, y, which extend downward from the baseline, are called descenders. The height is called the descender height, the bottom alignment Known as the down line
+- baseline: the invisible line on which "H" or "n" stands
+- cap height: the distance from baseline to the top of a linear uppercase letter like "H" or "E"
+- x-height: the distance from the bottom to the top of lowercase "x" 
+- ascender: the ascending parts of lowercase letters like "b", "d", "f", "h", "k", "l" over the top of "x" , its height is called the ascender height, the top line which ascenders align is called the ascender line
+- descender: the descending parts of lowercase letters like "g", "j", "p", "q", "y" below the baseline, its height is called the descender height, the bottom line which descenders align is called the descender line
 
 # + CAPTION: Typography
 # + NAME: image: typography
 [[static/notes/guide/images/2000px-Typography_line_terms_alternate.svg.png]]
 
-*** Character spacing
+*** Letter-spacing
 
-Character spacing (Letter-spacing, or Tracking), referred to as kerning, refers to the gap between the characters, divided into the font designer's character spacing adjustment and font user spacing adjustment of the character, the property affects the text line or text block & Lt;/RTI & gt;
+Letter-spacing, or tracking, refers to the space between letters, and is divided into font designer's and font user's letter-spacing adjustment; it affects the density in a line or block of text.
 
-For font designers, character spacing adjustment (Spacing) is an important process in the font design implementation process. In the proportion of Western characters in the font, single character left and right sides of the blank is not consistent, the purpose is to ensure that the characters, whether with any other character or symbol adjacent to can easily read.
+For font designers, adjusting the letter-spacing is an important procedure in designing. In a proportional font, the spacing on the left side of a single letter does not necessarily equal that on the right side. The purpose is to ensure readibility when the letter is adjacent to whatever other letters on either side.
 
-For the font user, the character spacing adjustment is the text after the initial row through the software manually adjust the spacing between characters, the purpose may be to obtain some special alignment effect [4], or for better layout effect [5].
+For font users, the letter-spacing adjustment means manually rearranging the space between letters by softwares after the original typesetting, in order to obtain special alignment[4], or a better layout effect[5].
 
-*** Word spacing
+*** Kerning
 
-Kerning, also known as kerning, refers to the process of increasing or decreasing the spacing of a particular character in a proportional font. The specific character pairs that need to be adjusted are called pairs or pairs. View sense, the word even spacing adjustment is more concerned about the visual distance between the characters rather than the actual distance.
+Kerning refers to the process of increasing or decreasing the space between specific letter pairs in a proportional font. These pairs are called kerning pairs. Kerning is more concerned about the visual spacing rather than the actual spacing.
 
-Many fonts are created at the design stage for word pairs, and the word spacing adjustment information is stored in the font file. In this way, typesetting software can be used in accordance with the font of the font spacing adjustment information to automatically adjust the kink, and thus get a better layout effect.
+Designers of many fonts will pay attention to kerning pairs while designing, and store kerning adjustment values in the font file. In this way, typesetting softwares can automatically adjust spacing in kerning pairs according to the values, and thus get a better layout effect.
 
-Implemented to the design and implementation of fonts, because each character has its own unique shape, so each pair of characters with each other to achieve the best results. This is the Western font design and implementation of the key processes and difficulties [6].
+Every letter has a unique shape, so during the design and implementation of a font, letters in all kerning pairs must coorperate to produce the best visual effect. In fact, this is where the key procedure and difficulties lie.
 
 # + CAPTION: Kerning (Kerning)
 # + NAME: image: typography
 [[static/notes/guide/images/1280px-Kerning_EN.svg.png]]
 
-*** co-word
+*** Ligature
 
-Ligature (Ligature), also known as ligatures, link words or words fit, referring to the words together by a word width design of the characters.
+A ligature is a glyph that joins two or more letters together.
 
-Printed characters originate from the characters written in the handwritten text. After the birth of movable type printing, a lot of co-word was directly made into the word. However, in the 1950s, the widespread use of sans-serif fonts, and 1970s phototypesetting technology, the word is gradually seldom used. The earliest use of the word for digital typesetting is [[https://en.wikipedia.org/wiki/Donald_Knuth]Donald Knuth]] TeX procedures. This trend also affected the desktop publishing technology after 1985. Early computer software can not be replaced by the word (but TeX can), most of the new production of computer fonts, there is no word. Early use of personal computers in English, and English is not necessary to use the word, so there is no real need. With the development of digital publishing technology such as [[https://en.wikipedia.org/wiki/OpenType][OpenType]]), the word has been gradually restored to use [7].
+Printing ligatures originate from letters combined in handwritting. After the birth of movable-type printing, a lot of ligatures were directly made into tpe. However, in the 1950s, sans-serif fonts began to be widely used, and in 1970s phototypesetting was invented, so ligatures were gradually seldom used. The earliest software that could use ligatures for digital typesetting is TeX created by [[https://en.wikipedia.org/wiki/Donald_Knuth]Donald Knuth]]. This trend also affected the typesetting technology on computer desktop after 1985. In early times, softwares could not replace letters with ligatures(but TeX can), and most of the newly made fonts for computers did not include ligatures. Furthermore, early personal computers mostly displayed in English, and ligatures are not necessary for English, so there was no real need. With the development of digital typesetting technology such as [[https://en.wikipedia.org/wiki/OpenType][OpenType]]), ligatures has gradually returned to practice[7].
 
-In general daily business documents, not the word will not be treated as a spelling error, but in advertising, books and other professional typesetting, the word is necessary [8].
+In general daily business documents, absence of ligatures will not be treated as spelling error, but for professional typesetting in advertising, book publishing and other fields, ligatures are essentially required[8].
 
 # + CAPTION: Ligature
 # + NAME: image: ligature
@@ -219,7 +219,7 @@ For an em-dash, type three hyphens (- \/- \/-);
 
 For a minus sign, type a hyphen in mathematics mode (\ $ - \ $).
 
---- Donald Knuth,/The TeXBook /
+--- Donald Knuth, /The TeXBook/
 # + END_QUOTE
 
 Hyphen (-)
@@ -506,7 +506,7 @@ In addition to the company's unique recruitment system, candidates should be the
 
 [7] Wikipedia, [[https://en.wikipedia.org/wiki/Ligature]].
 
-[8] "[[https://book.douban.com/subject/25836269/] [Western]],"/Kobayashi chapter /, Chapter II, P37.
+[8] "[[https://book.douban.com/subject/25836269/] [Western]]," /Kobayashi chapter/, Chapter II, P37.
 
 [9] Wikipedia, [[https://en.wikipedia.org/wiki/Italic_type][https://en.wikipedia.org/wiki/Italic_type]].
 
@@ -514,16 +514,16 @@ In addition to the company's unique recruitment system, candidates should be the
 
 [10] "[[https://book.douban.com/subject/4224467/][Adobe Indesign CS4, Basic Training Materials]]".
 
-[11] "[[https://book.douban.com/subject/26834548/] [Western typesetting]]",/Takahata Changsheng /, Chapter III, P98.
+[11] "[[https://book.douban.com/subject/26834548/] [Western typesetting]]", /Takahata Changsheng/, Chapter III, P98.
 
 [12] professional typesetting software with automatic word processing function, after opening in a certain program can automatically identify the place where the word can be, but the best artificial confirmation check again.
 
 [13] Wikipedia, [[https://en.wikipedia.org/wiki/Dash][https://en.wikipedia.org/wiki/Dash]], contains detailed symbol usage, and its use in different operating systems On the input method.
 
-[14] "[[https://book.douban.com/subject/26386339/] [Graphic Design Complete Manual]]",/Marcus Wegge /, Chapter VI, p296.
+[14] "[[https://book.douban.com/subject/26386339/] [Graphic Design Complete Manual]]", /Marcus Wegge/, Chapter VI, p296.
 
 [15] Wikipedia, [[https://en.wikipedia.org/wiki/Point_(typography)][https://en.wikipedia.org/wiki/Point_(typography)]].
 
-[16] "[[https://book.douban.com/subject/26386339/] [Graphic Design Complete Manual]]",/Marcus Wegge /, Chapter VI, p301.
+[16] "[[https://book.douban.com/subject/26386339/] [Graphic Design Complete Manual]]", /Marcus Wegge/, Chapter VI, p301.
 
 [17] [[https://github.com/ppresume/typos][https://github.com/ppresume/typos]], the latest common proper noun errata.
