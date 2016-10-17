@@ -14,7 +14,7 @@ This guide will systematically explain the essentials of resume writing and type
 The guide is trying to be as concise and clear as possible, for different declarations there are four levels of priorities:
 - MUST, mandatory in typesetting, serious mistake if violated
 - SHOULD, conform to general typesetting standards, highly recommended
-- SHOULD NOT, require advanced knowledge or features in typesetting, or diverse in different languages and cultures, or vary with regulations in companies, dangerous to use if not informed 
+- SHOULD NOT, require advanced knowledge or features in typesetting, or diverse in different languages and cultures, or vary with regulations in companies, dangerous to use if not informed
 - MUST NOT, conflict with general typesetting standards, forbidden to apply
 
 * Font
@@ -53,10 +53,9 @@ According to whether or not the widths of characters are the same, fonts can be 
 
 In traditional printing, proportional fonts can improve the legibility of words. Due to technical limitations, the early computers and typewriters can not adjust the widths of characters. So all characters are made into the same width, thus monospaced fonts come into being. With the improvement of computer technology, the GUI(graphical user interface) has become the mainstream and been developing continuously; technical limitations no longer exist, so proportional fonts have become quite popular, since they are more naturally legible for human.
 
+** Font design and usage
 
-* Font design and usage
-
-Digital Publishing has been developing for many years, and the writing system of English or other similiar languages actually has a very small character set, so there are many many kinds of fonts designed by different people with various demands.
+Digital Publishing has been developing for many years, and the writing system of English or other similar languages actually has a very small character set, so there are many many kinds of fonts designed by different people with various demands.
 
 For a monospaced font, the main focus is on the design of each single letter, other than that, in a proportional font, the space between letters should also be seriously considered.
 
@@ -66,7 +65,7 @@ Letters in every font have a consistent structure, font users are supposed to kn
 
 - baseline: the invisible line on which "H" or "n" stands
 - cap height: the distance from baseline to the top of a linear uppercase letter like "H" or "E"
-- x-height: the distance from the bottom to the top of lowercase "x" 
+- x-height: the distance from the bottom to the top of lowercase "x"
 - ascender: the ascending parts of lowercase letters like "b", "d", "f", "h", "k", "l" over the top of "x" , its height is called the ascender height, the top line which ascenders align is called the ascender line
 - descender: the descending parts of lowercase letters like "g", "j", "p", "q", "y" below the baseline, its height is called the descender height, the bottom line which descenders align is called the descender line
 
@@ -76,19 +75,19 @@ Letters in every font have a consistent structure, font users are supposed to kn
 
 *** Letter-spacing
 
-Letter-spacing, or tracking, refers to the space between letters, and is divided into font designer's and font user's letter-spacing adjustment; it affects the density in a line or block of text.
+Letter-spacing, or tracking, refers to the space between letters. Letter-spacing adjustment is divided into font designers' side and font users' side; it affects the density in a line or block of text.
 
-For font designers, adjusting the letter-spacing is an important procedure in designing. In a proportional font, the spacing on the left side of a single letter does not necessarily equal that on the right side. The purpose is to ensure readibility when the letter is adjacent to whatever other letters on either side.
+For font designers, adjusting the letter-spacing is an important procedure in designing. In a proportional font, the spacing on the left side of a single letter does not necessarily equal that on the right side. The purpose is to ensure readability when the letter is adjacent to whatever other letters on either side.
 
-For font users, the letter-spacing adjustment means manually rearranging the space between letters by softwares after the original typesetting, in order to obtain special alignment[4], or a better layout effect[5].
+For font users, the letter-spacing adjustment means manually rearranging the space between letters by software after the original typesetting, in order to obtain special alignment[4], or a better layout effect[5].
 
 *** Kerning
 
 Kerning refers to the process of increasing or decreasing the space between specific letter pairs in a proportional font. These pairs are called kerning pairs. Kerning is more concerned about the visual spacing rather than the actual spacing.
 
-Designers of many fonts will pay attention to kerning pairs while designing, and store kerning adjustment values in the font file. In this way, typesetting softwares can automatically adjust spacing in kerning pairs according to the values, and thus get a better layout effect.
+Designers of many fonts will pay attention to kerning pairs while designing, and store kerning adjustment values in the font file. In this way, typesetting software can automatically adjust spacing in kerning pairs according to the values, and thus produce a better layout effect.
 
-Every letter has a unique shape, so during the design and implementation of a font, letters in all kerning pairs must coorperate to produce the best visual effect. In fact, this is where the key procedure and difficulties lie.
+Every letter has a unique shape, so during the design and implementation of a font, letters in all kerning pairs must cooperate to produce the best visual effect. In fact, this is where the key procedure and difficulties lie.
 
 # + CAPTION: Kerning (Kerning)
 # + NAME: image: typography
@@ -98,10 +97,41 @@ Every letter has a unique shape, so during the design and implementation of a fo
 
 A ligature is a glyph that joins two or more letters together.
 
-Printing ligatures originate from letters combined in handwritting. After the birth of movable-type printing, a lot of ligatures were directly made into tpe. However, in the 1950s, sans-serif fonts began to be widely used, and in 1970s phototypesetting was invented, so ligatures were gradually seldom used. The earliest software that could use ligatures for digital typesetting is TeX created by [[https://en.wikipedia.org/wiki/Donald_Knuth]Donald Knuth]]. This trend also affected the typesetting technology on computer desktop after 1985. In early times, softwares could not replace letters with ligatures(but TeX can), and most of the newly made fonts for computers did not include ligatures. Furthermore, early personal computers mostly displayed in English, and ligatures are not necessary for English, so there was no real need. With the development of digital typesetting technology such as [[https://en.wikipedia.org/wiki/OpenType][OpenType]]), ligatures has gradually returned to practice[7].
+Printing ligatures originate from letters combined in handwriting. After the birth of movable-type printing, many ligatures were directly made into type. However, in the 1950s, sans-serif fonts began to be widely used, and in the 1970s phototypesetting was invented, so gradually ligatures were rarely used. The earliest software that could use ligatures for digital typesetting is TeX created by [[https://en.wikipedia.org/wiki/Donald_Knuth]Donald Knuth]]. This trend also affected the typesetting technology on computer desktop after 1985. In early times, software could not replace letters with ligatures(but TeX could), and most of the newly made fonts for computers did not include ligatures. Furthermore, early personal computers mostly displayed English, and ligatures are not necessary for English, so there was no real need. With the development of digital typesetting technology such as [[https://en.wikipedia.org/wiki/OpenType][OpenType]]), ligatures has gradually returned to practice[7].
 
 In general daily business documents, absence of ligatures will not be treated as spelling error, but for professional typesetting in advertising, book publishing and other fields, ligatures are essentially required[8].
 
 # + CAPTION: Ligature
 # + NAME: image: ligature
 [[static/notes/guide/images/1106px-Ligatures.svg.png]]
+
+*** Italics
+
+Italics are fonts in which the letters slant slightly to the right. Italics are based on normal font style, and usually refer to italic type and oblique type.
+
+In italic type, forms of letters are changed compared with the normal type, while in oblique type, letters are merely tilted right without any modification on the forms. Oblique type is simply realized through algorithms in software, as a result, the strokes of letters will appear loose. Recently, more and more designs are inclined to apply newly designed italic type.
+
+Theoretically, italics include italic type and oblique type, but it should be noticed that actually not all italic type are slanted .
+
+In pratice, italics are usually applied to one piece of text to emphasize or distinguish it from the main body that uses serif fonts.
+
+*** Combined font solution
+
+There are tons of fonts out there nowadays, so to commend a universal combined font solution is not so easy as it may seem to be. 
+
+- RECOMMEND, using serif fonts in the main body
+- RECOMMEND, using sans-serif fonts for titles, but serif fonts can also be used
+- RECOMMEND, using fonts in italic type to emphasize text in main body, corresponding bold style can also be used
+- Commonly used serif fonts 
+  - [[https://en.wikipedia.org/wiki/Garamond][Garamond]]
+  - [[https://en.wikipedia.org/wiki/Palatino][Palatino]]
+  - [[https://en.wikipedia.org/wiki/Georgia_(typeface)][Geogria]]
+  - [[https://en.wikipedia.org/wiki/Baskerville][Baskerville]]
+  - [[https://en.wikipedia.org/wiki/Minion_(typeface)][Minion]]
+  - [[https://en.wikipedia.org/wiki/Hoefler_Text][Hoefler Text]]
+  - [[[https://en.wikipedia.org/wiki/Linux_Libertine][Linux Libertine]]
+- Commonly used sans-serif fonts
+  - [[https://en.wikipedia.org/wiki/Helvetica][Helvetica]]
+  - [[https://en.wikipedia.org/wiki/Gill_Sans][Gill Sans]]
+  - [[https://en.wikipedia.org/wiki/Optima][Optima]]
+
