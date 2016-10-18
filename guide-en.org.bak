@@ -107,17 +107,17 @@ In general daily business documents, absence of ligatures will not be treated as
 
 *** Italics
 
-Italics are fonts in which the letters slant slightly to the right. Italics are based on normal font style, and usually refer to italic type and oblique type.
+Italics are fonts in which the letters slant slightly to the right. Italics are based on normal font style, and refer to italic type or oblique type.
 
 In italic type, forms of letters are changed compared with the normal type, while in oblique type, letters are merely tilted right without any modification on the forms. Oblique type is simply realized through algorithms in software, as a result, the strokes of letters will appear loose. Recently, more and more designs are inclined to apply newly designed italic type.
 
 Theoretically, italics include italic type and oblique type, but it should be noticed that actually not all italic type are slanted .
 
-In practice, italics are usually applied to one piece of text to emphasize or distinguish it from the main body that uses serif fonts.
+In practice, italics are usually applied to one piece of text to emphasize or distinguish it from the main body that is in serif fonts.
 
 *** Combined font solution
 
-There are tons of fonts out there nowadays, so to commend a universal combined font solution is not so easy as it may seem to be. 
+There are tons of fonts out there nowadays, so to commend a universal combined font solution for resumes is not so easy as it may seem to be. 
 
 - RECOMMEND, using serif fonts in the main body
 - RECOMMEND, using sans-serif fonts for titles, but serif fonts can also be used
@@ -129,7 +129,7 @@ There are tons of fonts out there nowadays, so to commend a universal combined f
   - [[https://en.wikipedia.org/wiki/Baskerville][Baskerville]]
   - [[https://en.wikipedia.org/wiki/Minion_(typeface)][Minion]]
   - [[https://en.wikipedia.org/wiki/Hoefler_Text][Hoefler Text]]
-  - [[[https://en.wikipedia.org/wiki/Linux_Libertine][Linux Libertine]]
+  - [[https://en.wikipedia.org/wiki/Linux_Libertine][Linux Libertine]]
 - Commonly used sans-serif fonts
   - [[https://en.wikipedia.org/wiki/Helvetica][Helvetica]]
   - [[https://en.wikipedia.org/wiki/Gill_Sans][Gill Sans]]
