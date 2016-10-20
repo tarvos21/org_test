@@ -13,7 +13,7 @@ This guide will systematically explain the essentials of resume writing and type
 
 The guide is trying to be as concise and clear as possible, for different declarations there are four levels of priorities:
 - MUST, mandatory in typesetting, serious mistake if violated
-- SHOULD, conform to general typesetting standards, highly recommended
+- RECOMMEND, conform to general typesetting standards, highly recommended
 - SHOULD NOT, require advanced knowledge or features in typesetting, or diverse in different languages and cultures, or vary with regulations in companies, dangerous to use if not informed
 - MUST NOT, conflict with general typesetting standards, forbidden to apply
 
@@ -85,7 +85,7 @@ For font users, the letter-spacing adjustment means manually rearranging the spa
 
 Kerning refers to the process of increasing or decreasing the space between specific letter pairs in a proportional font. These pairs are called kerning pairs. Kerning is more concerned about the visual spacing rather than the actual spacing.
 
-Designers of many fonts will pay attention to kerning pairs while designing, and store kerning adjustment values in the font file. In this way, typesetting software can automatically adjust spacing in kerning pairs according to the values, and thus produce a better layout effect.
+Designers of many fonts will pay attention to kerning pairs while designing, and store kerning adjustment values in the font file. In this way, typesetting software can automatically adjust spacing for kerning pairs according to the values, thus produce a better layout effect.
 
 Every letter has a unique shape, so during the design and implementation of a font, letters in all kerning pairs must cooperate to produce the best visual effect. In fact, this is where the key procedure and difficulties lie.
 
@@ -97,7 +97,7 @@ Every letter has a unique shape, so during the design and implementation of a fo
 
 A ligature is a glyph that joins two or more letters together.
 
-Printing ligatures originate from letters combined in handwriting. After the birth of movable-type printing, many ligatures were directly made into type. However, in the 1950s, sans-serif fonts began to be widely used, and in the 1970s phototypesetting was invented, so gradually ligatures were rarely used. The earliest software that could use ligatures for digital typesetting is TeX created by [[https://en.wikipedia.org/wiki/Donald_Knuth]Donald Knuth]]. This trend also affected the typesetting technology on computer desktop after 1985. In early times, software could not replace letters with ligatures(but TeX could), and most of the newly made fonts for computers did not include ligatures. Furthermore, early personal computers mostly displayed English, and ligatures are not necessary for English, so there was no real need. With the development of digital typesetting technology such as [[https://en.wikipedia.org/wiki/OpenType][OpenType]]), ligatures has gradually returned to practice[7].
+Printing ligatures originate from letters combined in handwriting. After the birth of movable-type printing, many ligatures were directly made into type. However, in the 1950s, sans-serif fonts began to be widely used, and in the 1970s phototypesetting was invented, so gradually ligatures were rarely used. The earliest software that could use ligatures for digital typesetting is TeX created by [[https://en.wikipedia.org/wiki/Donald_Knuth][Donald Knuth]]. This trend also affected the typesetting technology on computer desktop after 1985. In early times, software could not replace letters with ligatures(but TeX could), and most of the newly made fonts for computers did not include ligatures. Furthermore, early personal computers mostly displayed English, and ligatures are not necessary for English, so there was no real need. With the development of digital typesetting technology such as [[https://en.wikipedia.org/wiki/OpenType][OpenType]], ligatures has gradually returned to practice[7].
 
 In general daily business documents, absence of ligatures will not be treated as spelling error, but for professional typesetting in advertising, book publishing and other fields, ligatures are essentially required[8].
 
@@ -109,7 +109,7 @@ In general daily business documents, absence of ligatures will not be treated as
 
 Italics are fonts in which the letters slant slightly to the right. Italics are based on normal font style, and refer to italic type or oblique type.
 
-In italic type, forms of letters are changed compared with the normal type, while in oblique type, letters are merely tilted right without any modification on the forms. Oblique type is simply realized through algorithms in software, as a result, the strokes of letters will appear loose. Recently, more and more designs are inclined to apply newly designed italic type.
+In italic type, forms of letters are changed compared with the normal type, while in oblique type, letters are merely tilted right without any modification on the forms. Oblique type is simply realized through algorithms by software, as a result, the strokes of letters will appear loose. Recently, more and more designs are inclined to apply newly designed italic type.
 
 Theoretically, italics include italic type and oblique type, but it should be noticed that actually not all italic type are slanted .
 
@@ -121,7 +121,7 @@ There are tons of fonts out there nowadays, so to commend a universal combined f
 
 - RECOMMEND, using serif fonts in the main body
 - RECOMMEND, using sans-serif fonts for titles, but serif fonts can also be used
-- RECOMMEND, using fonts in italic type to emphasize text in main body, corresponding bold style can also be used
+- RECOMMEND, using italic fonts to emphasize text in main body, corresponding bold style can also be used
 - Commonly used serif fonts 
   - [[https://en.wikipedia.org/wiki/Garamond][Garamond]]
   - [[https://en.wikipedia.org/wiki/Palatino][Palatino]]
@@ -137,57 +137,18 @@ There are tons of fonts out there nowadays, so to commend a universal combined f
 
 * Punctuation
 
-Punctuation is the most humble but most error-prone place in CV writing. Whether the correct and standardized use of punctuation marks reflect the job applicants attitude.
+Punctuation is the most humble but also most error-prone part in resume writing. Whether or not the usage of punctuation is correct and standardized reflects the attitude of job applicants.
 
-Correct and punctual use of punctuation, it seems easy to implement it is not imagined so simple. The main reason for this is that the use of punctuation in different locales is either unspecified or normative, but is not clearly defined in many places or has multiple sets of style guidelines ([[[https://en.wikipedia.org/wiki / Style_guide] [Style Guide]]) But they are not compatible with each other and even conflict; Second, the actual layout often encounter multiple languages ​​mixed situation, then the problem will become more complex. This guide attempts to summarize some common rules in the use of punctuation in both Chinese and English for your reference.
+To apply correct and standardized punctuation may seem easy, but actually not. The main reason is that there is no definite specification for punctuation usage in different situations, or there are specifications but no clear-cut rules, or there exist multiple sets of style guidelines ([[https://en.wikipedia.org/wiki/Style_guide][Style Guide]]), but they are incompatible or even conflicted with each other. We will attempt to summarize some universal rules for your reference here.
 
-** Chinese punctuation
-
-The following rules apply to the use of Chinese punctuation [10]:
-- Dash (-) Indicates the continuation of the tone or sound, takes up two Chinese characters space
-- ellipsis (...) that save the original, the sentence is not complete or the tone of the discontinuous, take up two Chinese characters space
-- Dashes and ellipses can not be broken or split into two lines because of an adaptive branch
-- the closing quotation marks, the end brackets, the ending book number, the ellipsis, the connection number, the space number, and so on, can not appear at the beginning of a line
-- start quotation marks, begin parentheses, start single or double the title of the symbol, etc., can not appear at the end of a line
-- It is advisable to squeeze the free space of punctuation marks when starting the brackets, ending brackets, commas, commas, periods, and interval numbers to make the text type more compact and readable.
-  - Most typesetting software has a punctuation function, please see the corresponding software manual rules
-
-** English punctuation
-
-The following rules apply to the use of punctuation in English [11]:
-- commas, periods, semicolons, colon, exclamation point, question mark must be followed by a half space
-- brackets around the same as the word and a half space, but after the bracket after the comma if it is not required to add a space
-- The hyphen has no space before and after the principle, but sometimes it is necessary to fine-tune the kerning
-- Slash for static "A or B" two parallel things, in principle, without spaces before and after
-
-** Mixed punctuation in Chinese and English
-
-Chinese and English punctuation in the form of very different, therefore, the correct use of punctuation to be done first do not mix punctuation:
-- In pure Chinese environment, be sure to use [[https://www.wikipedia.org/wiki/%E5%85%A8%E5%BD%A2%E5%92%8C%E5%8D%8A%E5% BD% A2] [full-width]] Chinese punctuation
-- In plain English, be sure to use half-width English punctuation
-- In the case of Chinese and English mixed in the context of Chinese and English, respectively, the use of the corresponding Chinese and English punctuation
-
-# + CAPTION: Contrast differences between Chinese and English punctuation marks
-# + NAME: table: difference-between-chinese-and-english-marks
-English | Chinese |
-| ---------------------------- + ------ + ------ |
-| Full Stop / Period |. |. |
-| Question Mark | |
-Exclamation Mark |! | |
-| Comma |, |, |
-| Colon |: |: |
-| Semicolon |; |; |
-| Parenthesis | () | () |
-| Bracket | | | |
-| Curly braces (Brace) | {} | {} |
-
-** General rules
-
-The following rules apply to the use of punctuation in both Chinese and English:
-- punctuation suspension, to avoid a line at the beginning is a punctuation mark, you can layout software to automatically set the corresponding function or manually adjust
-- List items ([[https://en.wikipedia.org/wiki/Bullet_(typography)][Bullet list]]) At the end of the sentence, we recommend no punctuation,
-- It is recommended to add a half-size space between Arabic numerals and units
-- use quotation marks ("'",''",""," "), do not use [[https://zh.wikipedia.org/wiki/%E6%92%87%E5%8F%B7 ][apostrophe]]
+- MUST, adding one space after commas, periods, semicolons, colons, exclamation marks and question marks
+- MUST, adding one space before an open bracket and after a closed bracket, same as a word, but no space after a closed bracket followed by a comma
+- RECOMMEND, adding one space between a number and its unit
+- RECOMMEND, not adding spaces around a hyphen, sometimes necessary to fine-tune the letter-spacing
+- RECOMMEND, not adding spaces around a slash which locates two parallel things like "A or B"
+- RECOMMEND, using quotation marks (“ ‘ ”, “ ’ ”, “ “ ”, “ ” ”), instead of [[https://en.wikipedia.org/wiki/Apostrophe][apostrophes]]
+- SHOULD NOT, adding any punctuation mark at the end of items in a [[https://en.wikipedia.org/wiki/Bullet_(typography)][Bullet list]]
+- MUST NOT, hanging a punctuation mark at the start of a line, this can be avoided by software's automatic settings or manual adjustment
 
 ** Connection symbol
 
