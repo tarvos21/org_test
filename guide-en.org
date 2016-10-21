@@ -150,52 +150,51 @@ To apply correct and standardized punctuation may seem easy, but actually not. T
 - SHOULD NOT, adding any punctuation mark at the end of items in a [[https://en.wikipedia.org/wiki/Bullet_(typography)][Bullet list]]
 - MUST NOT, hanging a punctuation mark at the start of a line, this can be avoided by software's automatic settings or manual adjustment
 
-** Connection symbol
+** Connective mark
 
-Hyphen, Hyphen, En-dash, and Em-dash are three punctuation marks that can easily be confused and cause errors in English typesetting. The use of these three different punctuation marks is described below.
+Hyphen (-), en-dash (--), and em-dash (---) are extremely easy to be confused, thus cause errors in typesetting. The usage of them is described below.
 
 # + BEGIN_QUOTE
-For a hyphen, type a hyphen (-);
+for a hyphen, type a hyphen (-);
 
-For an en-dash, type two hyphens (- \ / -);
+for an en-dash, type two hyphens (-\/-);
 
-For an em-dash, type three hyphens (- \ / - \ / -);
+for an em-dash, type three hyphens (-\/-\/-);
 
-For a minus sign, type a hyphen in mathematics mode (\ $ - \ $).
+for a minus sign, type a hyphen in mathematics mode (\$-\$).
 
---- Donald Knuth, / The TeXBook /
+---Donald Knuth, /The TeXBook/
 # + END_QUOTE
 
-Hyphen (-)
+*** Hyphen (-)
 
 The hyphen is used primarily for:
-
 - compound words such as "upper-case letter"
-- Separate numbers or characters, such as telephone numbers, "1-888-777-666"
-- The word at the end of the line will be hyphenated in order to keep the layout uniform
+- separating numbers or characters, such as telephone numbers, "1-888-777-666"
+- hyphenating the word at the end of a line to keep the whole layout neat
 
-There are a few rules about the end of the line:
-- Try not to have three or more consecutive ligatures
-- Avoid the use of proper nouns, names, etc. with a hyphen
-- Avoid cross-page ligatures
-- The position of ligature processing varies with different words. The basic principle is to segment the words according to the syllable. If necessary, it is best to check the dictionary. [12]
+There are a few rules about hyphenation at the end of a line:
+- trying not to hyphenate the last word in more than three continuous lines
+- avoiding to divide proper nouns, personal names, etc.
+- avoiding cross-page hyphenation
+- the position to hyphenate varies with different words, the basic principle is to segment words according to syllables, best to check dictionaries if necessary[12]
 
-*** Half-width connector (En-dash, -)
+*** En-dash (--)
 
-En-dash, length equal to uppercase character N, is half of the full-width connector (Em-dash), mainly used for:
-- Number of start and end ranges, such as year, "July - August 1968"
-- the starting point of the address, such as "Boston-Hartford route"
+The length of an en-dash equals the width of uppercase "N", and is half of the length of an em-dash. It's mainly used for:
+- indicating the spans of numbers, such as dates in a year, "July--August 1968"
+- connecting the start and end of addresses, such as "Boston--Hartford route"
 
-When using the half-angle connector, generally do not need to add a space before and after.
+When using an en-dash, generally it's not recommended to add spaces around it.
 
-*** Full-width connector (Em-dash, ---)
+*** Em-dash (---)
 
-Full-width connector (Em-dash), equal to the length of uppercase characters M, the most flexible and complex usage, the usage can refer to the Chinese dash:
-- Used to specify or explain, equivalent to parentheses or colons
-- Used to separate boot clauses
-- Indicates that the conversation is interrupted, in which case an ellipsis may be used instead
+The length of an em-dash equals the width of uppercase "M", and its usage is the most flexible and complex. The em-dash is usually used for:
+- explaining something in details, equivalent to parentheses or colons
+- segmenting declarative clauses
+- indicating that the conversation is interrupted, in which case an ellipsis may also be used
 
-In addition, there are two, three full-width connector used together with the usage, not detailed here [13].
+In addition, there are situations where two or three em-dashes are joined together, but not to be detailed here[13].
 
 * Layout
 

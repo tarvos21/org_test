@@ -142,6 +142,58 @@ Punctuation is the most humble but also most error-prone part in resume writing.
 To apply correct and standardized punctuation may seem easy, but actually not. The main reason is that there is no definite specification for punctuation usage in different situations, or there are specifications but no clear-cut rules, or there exist multiple sets of style guidelines ([[https://en.wikipedia.org/wiki/Style_guide][Style Guide]]), but they are incompatible or even conflicted with each other. We will attempt to summarize some universal rules for your reference here.
 
 - MUST, adding one space after commas, periods, semicolons, colons, exclamation marks and question marks
-- MUST, adding one space before an open bracket and after an close bracket, same as a word, if a comma follows a closed bracket, then no space is needed
-- RECOMMEND, not adding spaces around a hyphen, sometimes it is necessary to fine-tune the letter-spacing
-- RECOMMEND, using slash to locate two parallel things like "A or B", without spaces around in principle
+- MUST, adding one space before an open bracket and after a closed bracket, same as a word, but no space after a closed bracket followed by a comma
+- RECOMMEND, adding one space between a number and its unit
+- RECOMMEND, not adding spaces around a hyphen, sometimes necessary to fine-tune the letter-spacing
+- RECOMMEND, not adding spaces around a slash which locates two parallel things like "A or B"
+- RECOMMEND, using quotation marks (“ ‘ ”, “ ’ ”, “ “ ”, “ ” ”), instead of [[https://en.wikipedia.org/wiki/Apostrophe][apostrophes]]
+- SHOULD NOT, adding any punctuation mark at the end of items in a [[https://en.wikipedia.org/wiki/Bullet_(typography)][Bullet list]]
+- MUST NOT, hanging a punctuation mark at the start of a line, this can be avoided by software's automatic settings or manual adjustment
+
+** Connective mark
+
+Hyphen (-), en-dash (--), and em-dash (---) are extremely easy to be confused, thus cause errors in typesetting. The usage of them is described below.
+
+# + BEGIN_QUOTE
+for a hyphen, type a hyphen (-);
+
+for an en-dash, type two hyphens (-\/-);
+
+for an em-dash, type three hyphens (-\/-\/-);
+
+for a minus sign, type a hyphen in mathematics mode (\$-\$).
+
+---Donald Knuth, /The TeXBook/
+# + END_QUOTE
+
+*** Hyphen (-)
+
+The hyphen is used primarily for:
+- compound words such as "upper-case letter"
+- separating numbers or characters, such as telephone numbers, "1-888-777-666"
+- hyphenating the word at the end of a line to keep the whole layout neat
+
+There are a few rules about hyphenation at the end of a line:
+- trying not to hyphenate the last word in more than three continuous lines
+- avoiding to divide proper nouns, personal names, etc. with a hyphen
+- avoiding cross-page hyphenation
+- the position to hyphenate varies with different words, the basic principle is to segment words according to syllables, best to check dictionaries if necessary[12]
+
+*** En-dash (--)
+
+The length of an en-dash equals the width of uppercase "N", and is half of the length of an em-dash. It's mainly used for:
+- indicating the spans of numbers, such as dates in a year, "July--August 1968"
+- connecting the start and end of addresses, such as "Boston--Hartford route"
+
+When using an en-dash, generally it's not recommended to add spaces around it.
+
+*** Em-dash (---)
+
+The length of an em-dash equals the width of uppercase "M", and its usage is the most flexible and complex. The em-dash is usually used for:
+- explaining something in details, equivalent to parentheses or colons
+- segmenting declarative clauses
+- indicateing that the conversation is interrupted, in which case an ellipsis may also be used
+
+In addition, there are situations where two or three em-dashs are joined together, but not to be detailed here[13].
+
+
