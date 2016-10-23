@@ -31,24 +31,24 @@ In terms of serifs, fonts for Latin alphabet are divided into two families: seri
 
 A serif is a tiny line attached to the end of a stroke in a letter. A font with serifs is called serif font, or serifed font. In contrast, a font without serifs is called sans-serif font, from the French /sans/, meaning "without".
 
-# + CAPTION: Sans serif
-# + NAME: image: serif-and-sans-01
+#+CAPTION: Sans serif
+#+NAME: image:serif-and-sans-01
 [[static/notes/guide/images/1280px-Serif_and_sans-serif_01.svg.png]]
 
-# + CAPTION: Serif fonts
-# + NAME: image: serif-and-sans-02
+#+CAPTION: Serif fonts
+#+NAME: image:serif-and-sans-02
 [[static/notes/guide/images/1280px-Serif_and_sans-serif_02.svg.png]]
 
-# + CAPTION: serifs for serif fonts (red)
-# + NAME: image: serif-and-sans-03
+#+CAPTION: serifs for serif fonts (red)
+#+NAME: image:serif-and-sans-03
 [[static/notes/guide/images/1280px-Serif_and_sans-serif_03.svg.png]]
 
 *** Proportional vs. monospaced
 
 According to whether or not the widths of characters are the same, fonts can be divided into monospaced and proportional. As the name suggests, all letters in a monospaced font occupy the same amount of horizontal space, while in a proportional font they don't.
 
-# + CAPTION: Proportional fonts and monospaced fonts
-# + NAME: image: proportional-and-monospaced-font
+#+CAPTION: Proportional fonts and monospaced fonts
+#+NAME: image:proportional-and-monospaced-font
 [[static/notes/guide/images/1280px-Propvsmono.svg.png]]
 
 In traditional printing, proportional fonts can improve the legibility of words. Due to technical limitations, the early computers and typewriters can not adjust the widths of characters. So all characters are made into the same width, thus monospaced fonts come into being. With the improvement of computer technology, the GUI(graphical user interface) has become the mainstream and been developing continuously; technical limitations no longer exist, so proportional fonts have become quite popular, since they are more naturally legible for human.
@@ -69,8 +69,8 @@ Letters in every font have a consistent structure, font users are supposed to kn
 - ascender: the ascending parts of lowercase letters like "b", "d", "f", "h", "k", "l" over the top of "x" , its height is called the ascender height, the top line which ascenders align is called the ascender line
 - descender: the descending parts of lowercase letters like "g", "j", "p", "q", "y" below the baseline, its height is called the descender height, the bottom line which descenders align is called the descender line
 
-# + CAPTION: Typography
-# + NAME: image: typography
+#+CAPTION: Typography
+#+NAME: image:typography
 [[static/notes/guide/images/2000px-Typography_line_terms_alternate.svg.png]]
 
 *** Letter-spacing
@@ -89,8 +89,8 @@ Designers of many fonts will pay attention to kerning pairs while designing, and
 
 Every letter has a unique shape, so during the design and implementation of a font, letters in all kerning pairs must cooperate to produce the best visual effect. In fact, this is where the key procedure and difficulties lie.
 
-# + CAPTION: Kerning (Kerning)
-# + NAME: image: typography
+#+CAPTION: Kerning (Kerning)
+#+NAME: image:typography
 [[static/notes/guide/images/1280px-Kerning_EN.svg.png]]
 
 *** Ligature
@@ -101,8 +101,8 @@ Printing ligatures originate from letters combined in handwriting. After the bir
 
 In general daily business documents, absence of ligatures will not be treated as spelling error, but for professional typesetting in advertising, book publishing and other fields, ligatures are essentially required[8].
 
-# + CAPTION: Ligature
-# + NAME: image: ligature
+#+CAPTION: Ligature
+#+NAME: image:ligature
 [[static/notes/guide/images/1106px-Ligatures.svg.png]]
 
 *** Italics
@@ -154,7 +154,7 @@ To apply correct and standardized punctuation may seem easy, but actually not. T
 
 Hyphen (-), en-dash (--), and em-dash (---) are extremely easy to be confused, thus cause errors in typesetting. The usage of them is described below.
 
-# + BEGIN_QUOTE
+#+BEGIN_QUOTE
 for a hyphen, type a hyphen (-);
 
 for an en-dash, type two hyphens (-\/-);
@@ -164,7 +164,7 @@ for an em-dash, type three hyphens (-\/-\/-);
 for a minus sign, type a hyphen in mathematics mode (\$-\$).
 
 ---Donald Knuth, /The TeXBook/
-# + END_QUOTE
+#+END_QUOTE
 
 *** Hyphen (-)
 
@@ -175,7 +175,7 @@ The hyphen is used primarily for:
 
 There are a few rules about hyphenation at the end of a line:
 - trying not to hyphenate the last word in more than three continuous lines
-- avoiding to divide proper nouns, personal names, etc. with a hyphen
+- avoiding to divide proper nouns, personal names, etc.
 - avoiding cross-page hyphenation
 - the position to hyphenate varies with different words, the basic principle is to segment words according to syllables, best to check dictionaries if necessary[12]
 
@@ -192,8 +192,28 @@ When using an en-dash, generally it's not recommended to add spaces around it.
 The length of an em-dash equals the width of uppercase "M", and its usage is the most flexible and complex. The em-dash is usually used for:
 - explaining something in details, equivalent to parentheses or colons
 - segmenting declarative clauses
-- indicateing that the conversation is interrupted, in which case an ellipsis may also be used
+- indicating that the conversation is interrupted, in which case an ellipsis may also be used
 
-In addition, there are situations where two or three em-dashs are joined together, but not to be detailed here[13].
+In addition, there are situations where two or three em-dashes are joined together, but not to be detailed here[13].
 
+* Layout
 
+Typesetting is like building a two-dimensional architecture.
+
+If the text and its fonts are the materials for construction, then the layout design is the architectural drawing. Before discussing the design of layout, we need to make some of the basic concepts clear, especially the unit system of font size in typography.
+
+** Font size
+
+Font size is the standard measure of how large the characters in text are. The international universal unit of font size is the point.
+
+The [[https://en.wikipedia.org/wiki/Point_(typography)][point]] is usually abbreviated as pt, its the smallest unit of measure in typography. In fact, the size of the point has varied throughout the history of printing. Since the 18th century, the point's size has varied from 0.18 to 0.4 mm. Following the advent of [[https://en.wikipedia.org/wiki/Desktop_publishing][desktop publishing]] in the 1980s and 1990s, [[https://en.wikipedia.org/wiki/Digital_printing ][Digital printing]] has largely supplanted the [[https://en.wikipedia.org/wiki/Printing_press][letterpress printing]] and has gradually established the DTP point as the facto standard.
+
+The DTP point is defined as 1/72 of an [[https://en.wikipedia.org/wiki/Inch][inch]].
+
+Most fonts will make the best effect when set to 10-12 pt. In other words, both the strokes and structure of characters themselves and the spacing between characters will present relatively good visual effects in such a font size[14]. The larger the font size, the looser the text appears, so you need to manually decrease the character spacing; on the other hand, the smaller the font size, the more compact the text appears, so you need to manually increase the character spacing.
+
+#+CAPTION: Point units
+#+NAME: table:dtp-point
+| pt |     mm |      cm | pica | inch |
+|----+--------+---------+------+------|
+|  1 | 0.3528 | 0.03528 | 1/12 | 1/72 |
