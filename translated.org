@@ -135,8 +135,6 @@ There are tons of fonts out there nowadays, so to commend a universal combined f
   - [[https://en.wikipedia.org/wiki/Gill_Sans][Gill Sans]]
   - [[https://en.wikipedia.org/wiki/Optima][Optima]]
 
-test
-
 * Punctuation
 
 Punctuation is the most humble but also most error-prone part in resume writing. Whether or not the usage of punctuation is correct and standardized reflects the attitude of job applicants.
