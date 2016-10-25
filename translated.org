@@ -148,7 +148,7 @@ To apply correct and standardized punctuation may seem easy, but actually not. T
 - RECOMMEND, not adding spaces around a slash which locates two parallel things like "A or B"
 - RECOMMEND, using quotation marks (“ ‘ ”, “ ’ ”, “ “ ”, “ ” ”), instead of [[https://en.wikipedia.org/wiki/Apostrophe][apostrophes]]
 - SHOULD NOT, adding any punctuation mark at the end of items in a [[https://en.wikipedia.org/wiki/Bullet_(typography)][Bullet list]]
-- MUST NOT, hanging a punctuation mark at the start of a line, this can be avoided by software's automatic settings or manual adjustment
+- MUST NOT, hanging a punctuation mark at the start of a line, which can be avoided by software's automatic settings or manual adjustment
 
 ** Connective mark
 
@@ -163,7 +163,7 @@ for an em-dash, type three hyphens (-\/-\/-);
 
 for a minus sign, type a hyphen in mathematics mode (\$-\$).
 
----Donald Knuth, /The TeXBook/
+--- Donald Knuth, /The TeXBook/
 #+END_QUOTE
 
 *** Hyphen (-)
@@ -177,7 +177,7 @@ There are a few rules about hyphenation at the end of a line:
 - trying not to hyphenate the last word in more than three continuous lines
 - avoiding to divide proper nouns, personal names, etc.
 - avoiding cross-page hyphenation
-- the position to hyphenate varies with different words, the basic principle is to segment words according to syllables, best to check dictionaries if necessary[12]
+- segmenting words according to syllables in principle, however the position to hyphenate varies with words,  so it's better to check dictionaries if necessary[12]
 
 *** En-dash (--)
 
@@ -206,14 +206,36 @@ If the text and its fonts are the materials for construction, then the layout de
 
 Font size is the standard measure of how large the characters in text are. The international universal unit of font size is the point.
 
-The [[https://en.wikipedia.org/wiki/Point_(typography)][point]] is usually abbreviated as pt, its the smallest unit of measure in typography. In fact, the size of the point has varied throughout the history of printing. Since the 18th century, the point's size has varied from 0.18 to 0.4 mm. Following the advent of [[https://en.wikipedia.org/wiki/Desktop_publishing][desktop publishing]] in the 1980s and 1990s, [[https://en.wikipedia.org/wiki/Digital_printing ][Digital printing]] has largely supplanted the [[https://en.wikipedia.org/wiki/Printing_press][letterpress printing]] and has gradually established the DTP point as the facto standard.
+The [[https://en.wikipedia.org/wiki/Point_(typography)][point]] is usually abbreviated as pt, its the smallest unit of measure in typography. In fact, the size of the point has varied throughout the history of printing. Since the 18th century, the point's size has varied from 0.18 to 0.4 mm. Following the advent of [[https://en.wikipedia.org/wiki/Desktop_publishing][desktop publishing]] in the 1980s and 1990s, [[https://en.wikipedia.org/wiki/Digital_printing ][digital printing]] has largely supplanted the [[https://en.wikipedia.org/wiki/Printing_press][letterpress printing]] and gradually established the DTP point as the facto standard.
 
 The DTP point is defined as 1/72 of an [[https://en.wikipedia.org/wiki/Inch][inch]].
 
-Most fonts will make the best effect when set to 10-12 pt. In other words, both the strokes and structure of characters themselves and the spacing between characters will present relatively good visual effects in such a font size[14]. The larger the font size, the looser the text appears, so you need to manually decrease the character spacing; on the other hand, the smaller the font size, the more compact the text appears, so you need to manually increase the character spacing.
+Most fonts will make the best effects when set to 10-12 pt. In other words, both the strokes and structure of characters themselves and the spacing between characters will present relatively good visual effects in such size[14]. The larger the font size, the looser the text appears, so you need to manually decrease the character spacing; on the other hand, the smaller the font size, the more compact the text appears, so you need to manually increase the character spacing.
 
 #+CAPTION: Point units
 #+NAME: table:dtp-point
 | pt |     mm |      cm | pica | inch |
 |----+--------+---------+------+------|
 |  1 | 0.3528 | 0.03528 | 1/12 | 1/72 |
+
+** Leading
+
+Leading or line-spacing refers to the distance between the baselines of two consecutive lines.
+
+#+CAPTION: Leading
+#+NAME: image:leading
+[[static/notes/guide/images/1200px-Line_spacing_comparison.svg.png]]
+
+The ideal leading is at least 120% of the text's font size[16], generally 1.2-1.5 times are recommended. Different fonts have different x-height, in principle, the larger the x-height of the font applied, the larger the leading should be, conversely, the smaller the x-height, the smaller the leading. 
+
+** Page Layout
+
+Layout is the outline of typesetting, it's like the head-rope of a fishing net, once the head-rope is raised up, all the meshes spread naturally. In addition to general typesetting rules for font size and leading, there are some unique requirements in resume layout design. In principle, it's best to control the resume in one page.
+- Making the language clear and concise
+- Adjusting the font size and leading within a reasonable range
+- Keeping page margins in 10-25 mm and making the left and right margins symmetrical
+- Using lists rather than parallel sentences to list information
+- Using flush left alignment, taking caution to use justified alignment
+  - Justified alignment may cause problems in hyphenation and letter-spacing because the lengths of words are different
+
+
